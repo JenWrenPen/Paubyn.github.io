@@ -1,6 +1,6 @@
 /***** Mobile *****/
 body {
-  background-color: #C9FBE8;
+  background-color: #E1F4D0;
   font-family: Arial, sans-serif;
   margin-top: 5%;
 }
@@ -91,7 +91,7 @@ input[type=button], input[type=submit], input[type=reset] {
   display: none;
 }
 body {
-  background-color: #C9FBE8;
+  background-color: #E1F4D0;
   font-family: Arial, sans-serif;
   margin-top: 2%;
 }
@@ -169,5 +169,6 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 4px;
 }
 }
+
 
 
