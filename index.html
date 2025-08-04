@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script src="LandingPage.js"></script>
+<head>
+  <title>Robyn and Paul</title>
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="LandingPage.css">
+</head>
+  
+<body>
+  <div class="fancycontainer">
+    <div id="image_map">
+      <img src="LandingPage.png" style="width:100%" usemap="#workmap" width="700px">
+      <map name="workmap">
+        <area class="enterButton" onclick="passcodePopUp()" shape="circle" coords="622,548,66" href="#">
+      </map>
+    </div>
+    <div id="image_map_mobile">
+      <img src="LandingPage.png" style="width:100%" usemap="#workmapmob" width="1050px">
+      <map name="workmapmob">
+        <area class="enterButton" onclick="passcodePopUp()" shape="circle" coords="933,822,100" href="#">
+      </map>
+    </div>
+  </div>
+  <div class="popup">
+    <span class="popuptext" id="myPopup">
+    <form action="/action_page.php" target="_blank" onsubmit="checkPasscode()">
+      <input type="text" id="passcodefield" name="passcode" placeholder="Enter code"/>
+      <input type="submit" id="passcodeenter" value="Let's go!"; />
+    </form>
+    </span>
+  </div>
+</body>
+</html>
