@@ -152,6 +152,7 @@ body {
 }
 
 input[type=text] {
+  width: 400px;
   font-size: 25px;
   font: "Monaco";
   border: 2px solid #90BA6B;
@@ -168,4 +169,5 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 4px;
 }
 }
+
 
