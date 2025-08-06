@@ -88,6 +88,21 @@ ul {
   margin-right: 10%;
   font-size: 20;
 }
+table {
+  color: black;
+  background-color: #BEDBA5;
+  border-collapse: collapse;
+  float: center;
+  font-family: "Avenir Light";
+  font-size: 7vw;
+}
+td {
+  border: 2vw solid #E1F4D0;
+  text-align: center;
+}
+.detailsofplan {
+  font-size: 4vw;
+}
 
 /***** Laptops & Desktops *****/
 @media only screen and (min-width: 992px) {
@@ -207,6 +222,21 @@ ul {
     width 100%;
     margin: auto;
   }
+  table {
+    color: black;
+    background-color: #BEDBA5;
+    border-collapse: collapse;
+    float: center;
+    font-family: "Avenir Light";
+    font-size: 3vw;
+  }
+  td {
+    border: 1vw solid #E1F4D0;
+    text-align: center;
+  }
+  .detailsofplan {
+    font-size: 2vw;
+  }
 }
 body {
   background-color: #E1F4D0;
@@ -223,19 +253,4 @@ body {
 }
 a {
   color: #699B3C;
-}
-table {
-  color: black;
-  background-color: #BEDBA5;
-  border-collapse: collapse;
-  float: center;
-  font-family: "Avenir Light";
-  font-size: 3vw;
-}
-td {
-  border: 1vw solid #E1F4D0;
-  text-align: center;
-}
-.detailsofplan {
-  font-size: 2vw;
 }
