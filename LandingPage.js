@@ -9,7 +9,7 @@ function passcodePopUp() {
 function checkPasscode() {
   var code = document.getElementById("passcodefield").value;
   if (code == "BestDayEver") {
-    window.location="secondpage.html";
+    window.location="/thebigday";
   }
   else if (code == "BestNightEver") {
     window.location="secondpage.html";
@@ -22,4 +22,5 @@ function checkPasscode() {
     window.location.href = 'index.html';
   }
 };
+
 
