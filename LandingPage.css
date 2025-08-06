@@ -1,3 +1,12 @@
+/***** Fonts *****/
+@font-face {
+  font-family: 'Avenir Light';
+  src: url('fonts/Avenir-Light.ttf') format('truetype');
+  font-weight: 300; 
+  font-style: normal;
+  font-display: swap; 
+}
+
 /***** Mobile *****/
 body {
   background-color: #E1F4D0;
@@ -15,7 +24,28 @@ body {
   height: auto;
 }
 #image_map_mobile img {
+  display:block;
   width: 100%;
+  margin: auto;
+}
+.fancycontainer button {
+  display: block;
+  width: 40%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  background-color: #BEDBA5;
+  cursor: pointer;
+  border: none;
+  border-radius: 8vw;
+  color: black;
+  padding: 0 4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family : "Avenir Light";
+  font-size: 8vw;
   margin: auto;
 }
 #image_map img{
@@ -99,6 +129,9 @@ body {
   width: 700px;
   height: 700px;
 }
+.fancycontainer button {
+  display: none;
+}
 #image_map img {
   display: block;
   width: 100%;
@@ -124,7 +157,7 @@ body {
   border-radius: 6px;
   border-style: solid;
   border-color: #90BA6B;
-  padding: 8px 8px;
+  padding: 8px 0;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -152,7 +185,6 @@ body {
 }
 
 input[type=text] {
-  width: 400px;
   font-size: 25px;
   font: "Monaco";
   border: 2px solid #90BA6B;
@@ -169,7 +201,4 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 4px;
 }
 }
-
-
-
 
