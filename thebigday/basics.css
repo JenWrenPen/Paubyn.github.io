@@ -6,7 +6,13 @@
   font-style: normal;
   font-display: swap; 
 }
-
+@font-face {
+  font-family: 'Vlad Script';
+  src: url('../fonts/Vladimir-Script-Regular.ttf') format('truetype');
+  font-weight: 300; 
+  font-style: normal;
+  font-display: swap; 
+}
 
 /***** Mobile *****/
 .mobnav {
@@ -102,4 +108,5 @@
   }
 a {
   color: #699B3C;
+
 }
