@@ -52,7 +52,7 @@ ul {
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 1vw;
   }
   p {
     text-align:center;
@@ -92,4 +92,5 @@ body {
   overflow: hidden;
 
 }
+
 
