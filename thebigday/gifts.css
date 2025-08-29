@@ -15,9 +15,8 @@ body {
   font-size: 2.5em;
 }
 p {
-  color: #90BA6B;
+  color: #000000;
   width: 80%;
-  padding-top:10px;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 20;
@@ -58,9 +57,8 @@ ul {
   }
   p {
     text-align:center;
-    color: #90BA6B;
+    color: #000000;
     font-size: 1em;
-    padding-top:10px;
     margin-left: 20px;
     margin-right: 20px;
     max-height: 999999px;
@@ -94,7 +92,4 @@ body {
   width: 800px;
   margin: auto;
   overflow: hidden;
-
 }
-
-
