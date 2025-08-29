@@ -19,7 +19,6 @@ p {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 20;
 }
 h2 {
   color: #000000;
@@ -58,7 +57,6 @@ ul {
   p {
     text-align:center;
     color: #000000;
-    font-size: 1em;
     margin-left: 20px;
     margin-right: 20px;
     max-height: 999999px;
@@ -94,3 +92,4 @@ body {
   overflow: hidden;
 
 }
+
