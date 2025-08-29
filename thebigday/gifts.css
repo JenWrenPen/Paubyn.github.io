@@ -57,8 +57,9 @@ ul {
   }
   p {
     text-align:center;
-    color: #000000;
+    color: #90BA6B;
     font-size: 1em;
+    margin-top:10px;
     margin-left: 20px;
     margin-right: 20px;
     max-height: 999999px;
@@ -92,4 +93,5 @@ body {
   width: 800px;
   margin: auto;
   overflow: hidden;
+
 }
