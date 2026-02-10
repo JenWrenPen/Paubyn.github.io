@@ -99,6 +99,26 @@ table td {
   font-size: 4vw;
 }
 
+.RoomAllocations {
+  width=100%;
+  padding-top: 10px;
+}
+
+.RoomAllocations p {
+  width=100%;
+  padding: 1vw 1vw;
+}
+
+.RoomAllocations td {
+  width: 25%;
+  height: auto;
+  border-left: 10px solid #E1F4D0;
+  border-right: 10px solid #E1F4D0;
+  padding: 10px 0vw;
+  vertical-align: top;
+  text-align: center;
+  font-size: 20px;
+}
 
 /***** Laptops & Desktops *****/
 @media only screen and (min-width: 992px) {
@@ -212,6 +232,27 @@ table td {
   vertical-align: top;
   text-align: center;
   font-size: 1.5vw;
+}
+
+.RoomAllocations {
+  width=100%;
+  padding-top: 10px;
+}
+
+.RoomAllocations p {
+  width=100%;
+  padding: 1vw 1vw;
+}
+
+.RoomAllocations td {
+  width: 25%;
+  height: auto;
+  border-left: 10px solid #E1F4D0;
+  border-right: 10px solid #E1F4D0;
+  padding: 10px 0vw;
+  vertical-align: top;
+  text-align: center;
+  font-size: 20px;
 }
 
 }
